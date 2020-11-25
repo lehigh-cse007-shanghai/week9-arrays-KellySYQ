@@ -9,7 +9,7 @@ import java.util.Random;
 public class MovingBalls extends PApplet{
 
 
-    int number = 4;
+    int number = 10;
     int[] x = new int[number];
     int[] y = new int[number];
     int[] speedX = new int[number];
@@ -35,7 +35,7 @@ public class MovingBalls extends PApplet{
 
 
 
-        background(255,255,255);
+        background(213,213,213);
 
 
         for (int i = 0; i < x.length; i++){
