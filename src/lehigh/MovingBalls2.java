@@ -12,10 +12,10 @@ public class MovingBalls2 extends PApplet {
         float [] color;
 
         Ball(){
-            radius = (int) random(5,20);
+            radius = (int) random(10,20);
             x = (int) random(width - radius);
             y = (int) random(width - radius);
-            speedx = random(1f, 2.0f);
+            speedx = random(2f, 3.0f);
             speedy = random(1f, 2.0f);
             color = new float[] {random(255),random(255),random(255)};
         }
