@@ -24,7 +24,7 @@ public class Sort extends PApplet{
         x = new float[arr.length];
         for(int i = 0; i < arr.length; i++){
             arr[i] = (int) random(100);
-            x[i] = 500 * i / ((float) size) + 20;
+            x[i] = 500 * i / ((float) size) + 30;
         }
     }
 
